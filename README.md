@@ -38,15 +38,20 @@ If you type 6 :
    # return True if n % 2 == 0 else False
 
    or even I can even just say:
+
    # The use of case to replace the if statement
-   Here we use what we call match and we use case_ when none is matched do this.The underscore means "anything else"
+
+   Here we use what we call match and we use case\_ when none is matched do this.The underscore means "anything else"
 
    # return n % 2 == 0 (this is very succint)
 
    ### Be careful that there is a great rule Under Loop
+
    When you type: x = 1 the equals to is an assignment operator that copies the vaue from the right to the left.
    The meaning of Loop is to repeat an action multiple times. It is like saying clap 3 times instead of saying clap!clap!clap!
-   ### The Real difference between For and Whike Loops
+
+   ### The Real difference between For and While Loops
+
    for loop- use when you know how many times to loop, or you're going through a known collection(list,dictionary,range)
-Use the while loop when you don't know in advance how many times it'll run. It just keeps going as long as a condition stays True.
+   Use the while loop when you don't know in advance how many times it'll run. It just keeps going as long as a condition stays True.
    Parallel journey: Cybersecurity under CSSF Academy.
