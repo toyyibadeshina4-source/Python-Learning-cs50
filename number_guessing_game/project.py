@@ -1,4 +1,4 @@
-#Buiding of my first project with python 
+#Building of my first project with python 
 import random
 number = random.randint(1, 10)
 #print(number) This is my cheat line to check if my "if block works really"
