@@ -6,11 +6,11 @@ attempts = 0
 
 while True:
    attempts +=1
-   userguess = int(input("Can you guess a number between 1 and 10?"))
-   if userguess == number:
+   user_guess = int(input("Can you guess a number between 1 and 10?"))
+   if user_guess == number:
        print(f"Good of you! You guessed it in {attempts} tries")
        break
-   elif userguess < number:
+   elif user_guess < number:
        print("Too low,guess higher")
   
    else:
