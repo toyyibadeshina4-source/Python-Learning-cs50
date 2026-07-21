@@ -1,0 +1,11 @@
+import sys
+print("Full sys.argv:", sys.argv)
+print()
+print("sys.argv[-1] (last item) ->", sys.argv[-1])
+print("sys.argv[-2] (2nd to  last) ->", sys.argv[-2] if len(sys.argv) else"not enough args") 
+print()
+print("sys.arvg[:-1]  (everything except last) ->", sys. argv[:-1])
+print("sys.argv[:-2]) (everything except last two) ->", sys.argv[:-2])
+print()
+print("sys.argv[-2:]) (last two items) ->", sys.argv[-2:])
+print("sys.argv[-3:-1])  (3rd-last up to, not including, last) ->", sys.argv[-3:-   1])
