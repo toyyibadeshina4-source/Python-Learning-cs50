@@ -9,7 +9,8 @@
 def main():
  x = get_int("How many times do you eat a day?")
  print(f"You eat {x} times a day?")
-def get_int(prompt):        try:
+def get_int(prompt):
+        try:
           return int(input(prompt))
         except ValueError:
            pass

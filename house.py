@@ -20,5 +20,7 @@ match name:
         print("You are not welcome to the white house but you will be monitored")
     case "Adebayo" | "Kayode" | "Akin":
         print("You are welcome to the white house but you will be monitored")
+    case "Billal":
+        print("You are welcome to the white house but you will pay money for your stay")
     case _:
         print("Wetin you come do for here? You are not welcome to the white house")
