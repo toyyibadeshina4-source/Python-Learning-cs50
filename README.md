@@ -54,4 +54,10 @@ If you type 6 :
 
    for loop- use when you know how many times to loop, or you're going through a known collection(list,dictionary,range)
    Use the while loop when you don't know in advance how many times it'll run. It just keeps going as long as a condition stays True.
+Observation: I got to understand the well known metaphor that says that variables inpython are boxes that store values like strings and integers. But it is doing another thing entirely. So I came across this beautiful example:
+ spam = 42
+ eggs = spam
+ spam = 99
+ eggs 
+ But different for list:
    Parallel journey: Cybersecurity under CSSF Academy.

@@ -35,10 +35,37 @@ def spam():
     print(eggs) # prints 'No Food'
 
 def bacon():
-    ham = 'There is water'
+    water = 'There is water'
     eggs = 'There is food'
     print(eggs)
+    print(water)
 spam()
 
+#----- Code That is in a Local Scope can use global Variables----
+
+def spam():
+   print(eggs) # prints 'Buy everyday'
+eggs = "Buy everyday"
+spam()
+print()
+print()
+print()
+
+# The Global Statement-- When you need modification. 
+def spam():
+  global eggs
+  eggs = 'spam'
+eggs = 'global'
+spam()
+print(eggs)
+# Scope Identification
+def spam():
+   global eggs
+   eggs = 'spam' # This is the global variable
+def bacon():
+   eggs ='bacon' # This is a local variable
+def ham():
+   print(eggs) # This is the global variable
+eggs = 'global' # This is the global variable
 
 

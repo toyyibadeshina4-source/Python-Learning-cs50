@@ -1,4 +1,6 @@
 import re
-text = "cat"
-result = re.search(r'c.t',text)
-print(result)
+email = input("What's your email?").strip()
+if re.search(r"^.+@.+\.edu$",email):
+    print("Valid")
+else:
+    print("Invalid")
